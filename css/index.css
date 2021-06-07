@@ -1,0 +1,215 @@
+/*
+Element CSS
+*/
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  width: 100%;
+  height: 100%;
+}
+ul {
+  font-family: Roboto;
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+/*
+GLOBAL Style
+*/
+
+.container {
+  max-width: 1024px;
+  max-height: 576;
+  border: 1px solid;
+  margin: 0 auto;
+  padding: 55px 53px 0 56px;
+}
+/*
+Header Style
+*/
+header h1 {
+  margin: 0;
+  font-family: Roboto;
+  float: left;
+  font-size: 31px;
+}
+header nav {
+  float: left;
+}
+header nav ul {
+  float: left;
+  padding: 0 0 0 104px;
+  margin: 7px 0 0 0;
+}
+header nav li {
+  margin: 0 56px 0 0;
+  float: left;
+}
+header nav li a {
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  font-size: 22px;
+}
+
+li a:hover {
+  color: red;
+}
+
+.menu {
+  max-width: 100;
+  float: right;
+  width: 55px;
+  margin-left: 34px;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 110px;
+}
+
+.dropdown a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.menu:hover .dropdown {
+  display: block;
+  }
+
+/*
+Main Section Style
+*/
+main {
+  position: relative;
+}
+.placing {
+  display: inline;
+}
+.linkbutton {
+  margin: 42px 0 0 0;
+}
+.linkbutton a {
+  text-decoration: none;
+}
+.first {
+  margin-right: 50px;
+  padding: 18px 50px;
+  border: 2px solid;
+  border-radius: 40px;
+  color: blueviolet;
+  font-size: 20px;
+}
+
+.second {
+  padding: 18px 50px;
+  border: 2px solid;
+  border-radius: 40px;
+  color: blueviolet;
+  font-size: 20px;
+}
+
+a.first:hover {
+  background: blueviolet;
+  color: white;
+}
+
+a.second:hover {
+  background: blueviolet;
+  color: white;
+}
+
+h2 {
+  font-size: 130px;
+  margin: 50px 0 0 0;
+  opacity: 0.5;
+  color: #6e3dcc;
+  font-family: roboto;
+}
+.info {
+  font-size: 14px;
+  font-family: Roboto;
+  margin: 5px 0px 0px 0px;
+  width: 385px;
+}
+
+.rectangle {
+  background: url(../img/rect.png) no-repeat bottom center;
+  position: absolute;
+  left: -57px;
+  bottom: 306px;
+  width: 1135px;
+  height: 480px;
+  z-index: -1;
+  background-size: 100% 100%;
+}
+
+.symbol {
+  position: relative;
+  top: -230px;
+  left: 620px;
+  width: 325px;
+}
+
+.symbol2 {
+  position: relative;
+  top: -202px;
+  left: 290px;
+  width: 52px;
+}
+
+.symbol3 {
+  position: relative;
+  top: -287px;
+  left: 362px;
+  width: 97px;
+}
+.arrow {
+  position: relative;
+  top: -526px;
+  left: 990px;
+  width: 25px;
+}
+
+.page-indicator {
+  position: absolute;
+  top: 400px;
+    left: 783px;
+    font-size: 30px;
+    color: white;
+}
+
+.page-indicator .big-text {
+  font-size: 40px;
+}
+
+.fa-facebook {
+  color: white;
+}
+.fa-twitter {
+  color: white;
+}
+.fa-instagram {
+  color: white;
+}
+.social-links{
+  position: absolute;
+  top: 468px;
+}
+.social-links a {
+  margin: 11px;
+  font-size: 25px;
+  color: white;
+}
